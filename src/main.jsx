@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter , RouterProvider } from 'react-router-dom'
-import Filmes from './Pages/Filmes.jsx'
-import Sobre from './Pages/Sobre.jsx'
-import Contato from './Pages/Contato.jsx'
+
+
+import Noticias from './Pages/Noticias.jsx'
 import PageNotFound from './Pages/PageNotFound.jsx'
 import Home from './Pages/Home.jsx'
 import PaginaFilmes from './Pages/PaginaFilmes.jsx'
@@ -17,10 +17,8 @@ const router = createBrowserRouter(
       element : <App/>,
       children : [
         {index: true, element: <Home/> },
-        {path : "filmes" , element : <Filmes/>},
         {path : "filmes/:id" , element : <PaginaFilmes/>},
-        {path : "sobre" , element : <Sobre/>},
-        {path : "contato" , element : <Contato/>},
+        {path : "noticias" , element : <Noticias/>},
         {path : "*" , element : <PageNotFound/>}
 
       ]

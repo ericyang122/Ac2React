@@ -6,11 +6,12 @@ export default {
   ],
   theme: {
     extend: {
-
-      colors:{
-        "primary-raul" : "#735ABC"
-      }
-
+      colors: {
+        "primary-raul": "#735ABC",
+      },
+      height: {
+        '30vh': '30vh',
+      },
     },
   },
   plugins: [],

@@ -7,10 +7,8 @@ function NavBar() {
             <span className="text-red-700 font-bold text-3xl">NETMARK</span>
             <nav className="ml-9">
                 <ul className="flex gap-4 text-colorTxt">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="filmes">Filmes</Link></li>
-                    <li><Link to="sobre">Sobre</Link></li>
-                    <li><Link to="contato">Contato</Link></li>
+                    <li className="hover:underline"><Link to="/">Home</Link></li>
+                    <li className="hover:underline"><Link to="noticias">Notícias</Link></li>
                 </ul>
             </nav>
         </div>
